@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Form Tags
+    </title>
+</head>
+
+<body>
+    <h1>Admission Form</h1>
+    <form>
+        <!-- Personal Detail Section -->
+        <fieldset>
+            <legend><b>Personal Information</b></legend>
+            <label>Enter your First Name:</label>
+            <input type="text" placeholder="Enter your First Name">
+            <label>Enter your Middle Name:</label>
+            <input type="text" placeholder="Enter your Middle Name">
+            <label>Enter your Last Name:</label>
+            <input type="text" placeholder="Enter your Last Name">
+            <br>
+            <br>
+            <label>Date of Birth</label>
+            <input type="date">
+            <br>
+            <br>
+            <label>Username</label>
+            <input type="text" placeholder="Enter your Username">
+            <label>Password</label>
+            <input type="password" placeholder="Enter your Password">
+            <br>
+            <br>
+            <label>Gender</label>
+            <input type="radio" name="gender"><label>Male</label>
+            <input type="radio" name="gender"><label>Female</label>
+            <input type="radio" name="gender"><label>Other</label>
+        </fieldset>
+        <!-- Contact Section -->
+        <fieldset>
+            <legend><b>Contact Information</b></legend>
+            <label>Enter your Mobile Number:</label>
+            <input type="number" placeholder="Enter your Mobile Number">
+            <label>Enter your Alternate Mobile Number:</label>
+            <input type="number" placeholder="Enter your Alternate Mobile Number">
+            <br>
+            <br>
+            <label>Enter your Email:</label>
+            <input type="email" placeholder="Enter your Email">
+        </fieldset>
+        <!-- Address Section -->
+        <fieldset>
+            <legend><b>Address Information</b></legend>
+            <label>Enter your Current Address:</label>
+            <textarea placeholder="Enter your Current Address"></textarea>
+            <br>
+            <br>
+            <label>Enter your Permanent Address:</label>
+            <textarea placeholder="Enter your Permanent Address"></textarea>
+            <br>
+            <br>
+            <label>City:</label>
+            <input type="text" placeholder="Enter your City">
+            <label>State</label>
+            <select>
+                <option>Select State</option>
+                <option>Andhra Pradesh</option>
+                <option>Assam</option>
+                <option>Madhya Pradesh</option>
+                <option>Maharashtra</option>
+                <option>Tamil Nadu</option>
+            </select>
+        </fieldset>
+        <!-- Additional Detail Section-->
+        <fieldset>
+            <legend><b>Additional Details</b></legend>
+            <label>Select System:</label>
+            <select>
+                <optgroup label="Desktop OS">
+                    <option>Windows</option>
+                    <option>Linux</option>
+                    <option>Mac</option>
+                </optgroup>
+                <optgroup label="Mobile OS">
+                    <option>Android</option>
+                    <option>IOS</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <label>Rate your Reading Skill:</label>
+            <input type="range">
+            <label>Rate your Listening Skill:</label>
+            <input type="range">
+            <label>Rate your Writing Skill:</label>
+            <input type="range">
+            <label>Rate your Speaking Skill:</label>
+            <input type="range">
+        </fieldset>
+    </form>
+</body>
+
+</html>
